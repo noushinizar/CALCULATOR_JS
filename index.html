@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="grid">
+            <input class="display" type="text" id="screen">
+            <button class="b" onclick="getoperator('sin')">sin</button>
+            <button class="b" onclick="getoperator('cos')">cos</button>
+            <button class="b" onclick="getoperator('tan')">tan</button>
+            <button class="b" onclick="getoperator('%')">%</button>
+            <button class="b" onclick="getvalue('1')">1</button>
+            <button class="b" onclick="getvalue('2')">2</button>
+            <button class="b" onclick="getvalue('3')">3</button>
+            <button class="b" onclick="getoperator('+')">+</button>
+            <button class="b" onclick="getvalue('4')">4</button>
+            <button class="b" onclick="getvalue('5')">5</button>
+            <button class="b" onclick="getvalue('6')">6</button>
+            <button class="b" onclick="getoperator('-')">-</button>
+            <button class="b" onclick="getvalue('7')">7</button>
+            <button class="b" onclick="getvalue('8')">8</button>
+            <button class="b" onclick="getvalue('9')">9</button>
+            <button class="b" onclick="getoperator('*')">*</button>
+            <button class="b" onclick="clearScreen()">c</button>
+            <button class="b" onclick="getvalue('0')">0</button>
+            <button class="b" onclick="calculate()">=</button>
+            <button class="b" onclick="getoperator('/')">/</button>
+            
+            
+        </div>
+    </div>
+ <script src="script.js"></script>
+</body>
+</html>
